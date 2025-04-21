@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Minimalista</title>
+</head>
+<body bgcolor="#dbeeff">
+
+  <br><br>
+  <table align="center" width="50%" bgcolor="#ffffff">
+    <tr>
+      <td align="center">
+        <h3>Formulario de Registro</h3>
+        <form action="gracias.html" method="get">
+
+          
+          <label for="nombre">Nombre:</label><br>
+          <input type="text" id="nombre" name="nombre"><br><br>
+
+          
+          <label for="clave">Contraseña:</label><br>
+          <input type="password" id="clave" name="clave"><br><br>
+
+          
+          <label for="email">Correo electrónico:</label><br>
+          <input type="email" id="email" name="email"><br><br>
+
+          
+          <label for="edad">Edad:</label><br>
+          <input type="number" id="edad" name="edad"><br><br>
+
+          <label for="archivo">Archivos adicionales</label><br>
+          <input type="file" id="archivo" name="archivo"><br><br>
+
+          
+          <label for="hora">Hora:</label><br>
+          <input type="time" id="hora" name="hora"><br><br>
+
+       
+          <label for="web">Sitio web:</label><br>
+          <input type="url" id="web" name="web"><br><br>
+
+         
+          <label>Género:</label><br>
+          <input type="radio" name="genero" value="masculino">Masculino
+          <input type="radio" name="genero" value="femenino">Femenino<br><br>
+
+          
+          <label>Intereses:</label><br>
+          <input type="checkbox" name="interes1" value="musica">Música
+          <input type="checkbox" name="interes2" value="deportes">Deportes<br><br>
+
+          
+          <label for="comentario">Comentarios:</label><br>
+          <textarea id="comentario" name="comentario" rows="3" cols="30"></textarea><br><br>
+
+          
+          <label for="pais">País:</label><br>
+          <select id="pais" name="pais">
+            <optgroup label="América">
+              <option value="seleccionar pais">Seleccionar pais</option>
+              <option value="colombia">Colombia</option>
+              <option value="panama">Panama</option>
+              <option value="brasil">Brasil</option>
+              <option value="norteamerica">America del Norte</option>
+            </optgroup>
+            <optgroup label="Europa">
+              <option value="españa">España</option>
+              <option value="alemania">Alemania</option>
+            </optgroup>
+          </select><br><br>
+
+        
+          <label for="lenguaje">Lenguaje que usas:</label><br>
+          <input list="lenguajes" id="lenguaje" name="lenguaje">
+          <datalist id="lenguajes">
+            <option value="Español">
+            <option value="Ingles">
+            <option value="Mandarin">
+            <option value="Usa 2 o mas lenguajes">
+          </datalist><br><br>
+
+          
+          <label>Progreso:</label><br>
+          <progress value="60" max="100"></progress><br><br>
+
+          
+          <label>Confianza:</label><br>
+          <meter value="0.9" min="0" max="1"></meter><br><br>
+
+          
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button><br><br>
+
+        </form>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
